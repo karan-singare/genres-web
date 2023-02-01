@@ -1,6 +1,6 @@
 {
   "name": "@mogi/genres-web",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A react native web component displaying the list of genres.",
   "main": "index.js",
   "repository": "https://github.com/karan-singare/genres-web.git",
