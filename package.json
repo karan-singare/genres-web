@@ -1,0 +1,41 @@
+{
+  "name": "@mogi/genres-web",
+  "version": "0.0.4",
+  "description": "A react native web component displaying the list of genres.",
+  "main": "index.js",
+  "repository": "https://github.com/karan-singare/genres-web.git",
+  "author": "Karan Singare <karansingare@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "babel native.js --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-native": "^4.0.0",
+    "prettier": "^1.7.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-native-web": "^0.1.1",
+    "webpack": "^3.6.0"
+  },
+  "peerDependencies": {
+    "react-native-web": "*"
+  },
+  "files": [
+    "src",
+    "yarn.lock"
+  ]
+}

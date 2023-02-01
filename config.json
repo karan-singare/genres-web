@@ -1,0 +1,10 @@
+{
+  "targetFile": "screens/search/search.screen.js",
+  "name": "@mogi/genres",
+  "tag": "Genres",
+  "props": {
+    "appId": "634f8540e713640008547cb9",
+    "appUrl": "tv.mogiio.ott.dev.customers"
+  },
+  "insertAfter": "{this.renderGenres()}"
+}
